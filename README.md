@@ -39,7 +39,7 @@ Only one thing needed: **Docker Desktop** (free)
 
 ---
 
-## Setup — Windows PC (Lenovo M900)
+## Setup — Windows PC
 
 ### File structure
 Extract the Windows zip to `C:\doc-chat\` so it looks like this:
@@ -87,7 +87,7 @@ docker logs -f docs-chat   # View logs
 
 ---
 
-## Setup — Mac Mini M2
+## Setup — Mac Mini Mx
 
 ### File structure
 Extract the Mac zip to your home folder `~/doc-chat/` so it looks like this:
