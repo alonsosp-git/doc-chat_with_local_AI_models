@@ -26,8 +26,8 @@ Docs Chat is a local web application that lets you have a conversation with your
 
 | Machine | CPU | RAM | Notes |
 |---|---|---|---|
-| **Lenovo M900** (Windows 11) | Intel i7-6700T · 4 cores / 8 threads | 24 GB | CPU-only inference |
-| **Apple Mac Mini M2** (macOS) | Apple M2 · 8-core CPU + 10-core GPU | 16 GB | Metal GPU acceleration |
+| (Windows 11) | Intel i7· 4 cores / 8 threads | 24 GB | CPU-only inference |
+| (macOS) | Apple · 8-core CPU + 10-core GPU | 16 GB | Metal GPU acceleration |
 
 ---
 
