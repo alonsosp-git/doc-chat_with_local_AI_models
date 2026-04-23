@@ -39,7 +39,7 @@ Only one thing needed: **Docker Desktop** (free)
 
 ---
 
-## Setup — Windows PC (Lenovo M900)
+## Setup — Windows PC
 
 ### File structure
 Extract the Windows zip to `C:\doc-chat\` so it looks like this:
@@ -87,7 +87,7 @@ docker logs -f docs-chat   # View logs
 
 ---
 
-## Setup — Mac Mini M2
+## Setup — Mac Mini Mx
 
 ### File structure
 Extract the Mac zip to your home folder `~/doc-chat/` so it looks like this:
@@ -162,7 +162,7 @@ The app comes with a built-in **Model Manager** (click "Manage" in the sidebar).
 ### Downloading a new model
 1. Click **Manage** in the sidebar
 2. Go to **Browse & Download**
-3. Filter by machine (Windows PC or Mac Mini M2) and purpose
+3. Filter by machine (Windows PC or Mac Mini MX) and purpose
 4. Click **Download via Ollama**
 5. Wait for the progress bar to complete
 6. Click **Use Now**
@@ -171,14 +171,14 @@ The app comes with a built-in **Model Manager** (click "Manage" in the sidebar).
 
 ## Performance Notes
 
-### Windows PC (Lenovo M900)
+### Windows PC 
 - Uses CPU-only inference (no GPU)
 - `llama3.2:1b` responds in 20-40 seconds
 - `llama3.2:3b` responds in 40-90 seconds
 - Models larger than 4B parameters will be very slow
 - The app pre-loads the model into RAM on startup for faster first queries
 
-### Mac Mini M2
+### Mac Mini Mx
 - Uses Apple Metal GPU acceleration via Ollama
 - `llama3.2:1b` responds in 2-5 seconds
 - `llama3.2:3b` responds in 5-10 seconds
@@ -245,6 +245,6 @@ Then run the launcher script again.
 
 | Version | Changes |
 |---|---|
-| v2.0 | Model Manager with purpose tabs (Chat, Docs, Code, Multilingual, Vision). Per-machine inference tuning (Windows CPU vs Mac M2 Metal). Pre-warm model on startup. Fix answer truncation. Filter bar high-contrast active states. Mac launcher script. |
+| v2.0 | Model Manager with purpose tabs (Chat, Docs, Code, Multilingual, Vision). Per-machine inference tuning (Windows CPU vs Mac MX Metal). Pre-warm model on startup. Fix answer truncation. Filter bar high-contrast active states. Mac launcher script. |
 | v1.x | Basic chat, Ollama integration, document indexing, stop button, progress bar |
 | v1.0 | Initial release |
