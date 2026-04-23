@@ -248,3 +248,10 @@ Then run the launcher script again.
 | v2.0 | Model Manager with purpose tabs (Chat, Docs, Code, Multilingual, Vision). Per-machine inference tuning (Windows CPU vs Mac Mx Metal). Pre-warm model on startup. Fix answer truncation. Filter bar high-contrast active states. Mac launcher script. |
 | v1.x | Basic chat, Ollama integration, document indexing, stop button, progress bar |
 | v1.0 | Initial release |
+
+
+## Note:
+Large language models range from lightweight versions under 1 GB to massive ones exceeding 400 GB, but bigger isn’t always better accuracy depends not only on size but also on training quality, architecture, and hardware capacity. Smaller models (around 7B–13B parameters, typically 7–14 GB) often strike the best balance between performance and usability, while ultra-large models (70B–400B parameters, 140–400+ GB) deliver stronger reasoning but require powerful infrastructure.
+
+## Reference:
+https://medium.com/@VenuThomas/ai-model-basics-understanding-size-hardware-and-setup-8ad12bfaed79
