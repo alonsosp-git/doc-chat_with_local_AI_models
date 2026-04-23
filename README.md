@@ -3,6 +3,8 @@
 Ask questions about your PDF and DOCX files using a local AI.
 **100% free. No API key. No internet after setup. Runs entirely on your machine.**
 
+<img width="1071" height="710" alt="image" src="https://github.com/user-attachments/assets/a45390f1-1e5e-4a8d-899e-105d24b6fd67" />
+
 ---
 
 ## What This App Does
